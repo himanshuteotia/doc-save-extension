@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobSaver</title>
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+  <div id="main">
+    <h2>JobSaver</h2>
+    <div id="preview">
+      <label>Title:</label>
+      <div id="job-title"></div>
+      <label>Description:</label>
+      <div id="job-desc"></div>
+      <label>URL:</label>
+      <div id="job-url"></div>
+    </div>
+    <div id="tags-section">
+      <label for="tags">Tags (comma separated):</label>
+      <input type="text" id="tags" placeholder="Remote, Urgent, Follow Up">
+    </div>
+    <div id="notes-section">
+      <label for="notes">Notes:</label>
+      <textarea id="notes" rows="2" placeholder="Add a note..."></textarea>
+    </div>
+    <div id="screenshot-section">
+      <button id="capture-btn">Capture Screenshot</button>
+      <img id="screenshot-preview" style="display:none; max-width:100%; margin-top:8px;" />
+    </div>
+    <button id="save-btn">Save to Notion</button>
+    <div id="status"></div>
+    <hr>
+    <div id="config-section">
+      <label for="notion-token">Notion Token:</label>
+      <input type="password" id="notion-token" placeholder="Secret token">
+      <label for="notion-db">Database ID:</label>
+      <input type="text" id="notion-db" placeholder="Notion DB ID">
+      <button id="save-config">Save Config</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

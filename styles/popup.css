@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 12px;
+  background: #f8fafc;
+  min-width: 320px;
+}
+#main {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 16px;
+}
+h2 {
+  margin-top: 0;
+  color: #2d3748;
+  font-size: 1.3em;
+}
+label {
+  font-weight: 500;
+  margin-top: 8px;
+  display: block;
+}
+input[type="text"], input[type="password"], textarea {
+  width: 100%;
+  padding: 6px 8px;
+  margin: 4px 0 10px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 1em;
+  background: #f1f5f9;
+}
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1e40af;
+}
+#status {
+  margin-top: 8px;
+  font-size: 0.95em;
+  color: #059669;
+}
+#screenshot-preview {
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  margin-top: 6px;
+}
+hr {
+  margin: 18px 0 10px 0;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+} 
