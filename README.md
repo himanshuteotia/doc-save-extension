@@ -1,4 +1,4 @@
-# 🚀 JobSaver Chrome Extension
+# 🚀 DocSaver Chrome Extension
 
 A Chrome extension to help job seekers save job posts, emails, and opportunities from any website — in just one click. Organize and track job-related content efficiently in Notion.
 
@@ -6,7 +6,7 @@ A Chrome extension to help job seekers save job posts, emails, and opportunities
 
 ## 📌 Overview
 
-**JobSaver** is a lightweight browser extension that allows you to:
+**DocSaver** is a lightweight browser extension that allows you to:
 - Save selected job descriptions, emails, or LinkedIn posts
 - Capture screenshots of job listings
 - Store everything in a Notion database
